@@ -19,6 +19,7 @@
 		C2F76B5C1946FB03009E5BD6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F76B441946FB03009E5BD6 /* UIKit.framework */; };
 		C2F76B641946FB03009E5BD6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2F76B621946FB03009E5BD6 /* InfoPlist.strings */; };
 		C2F76B661946FB03009E5BD6 /* NewObjectsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F76B651946FB03009E5BD6 /* NewObjectsTests.m */; };
+		C2F76B711947077D009E5BD6 /* LWFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F76B701947077D009E5BD6 /* LWFirstViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		C2F76B611946FB03009E5BD6 /* NewObjectsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NewObjectsTests-Info.plist"; sourceTree = "<group>"; };
 		C2F76B631946FB03009E5BD6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C2F76B651946FB03009E5BD6 /* NewObjectsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewObjectsTests.m; sourceTree = "<group>"; };
+		C2F76B6F1947077D009E5BD6 /* LWFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LWFirstViewController.h; path = ../LWFirstViewController.h; sourceTree = "<group>"; };
+		C2F76B701947077D009E5BD6 /* LWFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LWFirstViewController.m; path = ../LWFirstViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +111,8 @@
 			isa = PBXGroup;
 			children = (
 				C2F76B4F1946FB03009E5BD6 /* LWAppDelegate.h */,
+				C2F76B6F1947077D009E5BD6 /* LWFirstViewController.h */,
+				C2F76B701947077D009E5BD6 /* LWFirstViewController.m */,
 				C2F76B501946FB03009E5BD6 /* LWAppDelegate.m */,
 				C2F76B521946FB03009E5BD6 /* Images.xcassets */,
 				C2F76B471946FB03009E5BD6 /* Supporting Files */,
@@ -242,6 +247,7 @@
 			files = (
 				C2F76B4D1946FB03009E5BD6 /* main.m in Sources */,
 				C2F76B511946FB03009E5BD6 /* LWAppDelegate.m in Sources */,
+				C2F76B711947077D009E5BD6 /* LWFirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +448,7 @@
 				C2F76B6B1946FB03009E5BD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2F76B6C1946FB03009E5BD6 /* Build configuration list for PBXNativeTarget "NewObjectsTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +457,7 @@
 				C2F76B6E1946FB03009E5BD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
